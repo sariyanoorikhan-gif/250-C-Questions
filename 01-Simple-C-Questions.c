@@ -1,14 +1,15 @@
 /*area and circumference of circle*/
 #include <stdio.h>
 int main() {
-int radius;
-float PI = 3.14, area, circumference;
-printf("Enter the radius of circle: ");
-scanf("%d", &radius);
-area = PI * radius * radius;
-printf("The Area of circle is: %.2f", area);
-circumference = 2 * PI * radius;
-printf("\nThe Circumference of circle is: %f", circumference);
-return 0;
+int r;
+float area,cir;
+printf("enter radius of circle:");
+scanf("%d",&r);
+area = r*r*3.14;
+printf("area is:%f\n",area);
+cir=2*3.14*r;
+printf("cicum:%f",cir);
+
+
 }
  //first program
